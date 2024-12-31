@@ -1,0 +1,9 @@
+kaggle
+torch
+torchvision
+gradio
+Pillow
+tqdm
+numpy
+tensorboard 
+boto3
