@@ -960,7 +960,7 @@ The model achieves:
 - ✅ Training accuracy: **75.11%** 
 - 🎯 Test accuracy: **75.78%**  
 - 📆 Epochs: **150**  
-- 🧺 Batch size: **512**  
+- 🧺 Batch size: **450**  
 - 💻 Number of GPUs: **4**
 - ⏱️ Training time: **16 hours**
 
@@ -996,3 +996,4 @@ git push origin main
 
 Access the application at https://huggingface.co/spaces/nikhiljais/imagenet-classification 🌍
 
+<img src="images/inference_hf_space.png" alt="Uploading Dataset Screenshot" width="600">
