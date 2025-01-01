@@ -913,6 +913,384 @@ Training completed!
   <summary>AWS Training Logs</summary>
   
   ```bash
+2024-12-30 11:16:12,191 - INFO - Starting training on ip-172-31-46-177
+2024-12-30 11:16:12,191 - INFO - Available GPUs: 4
+2024-12-30 11:16:12,191 - INFO - Training started at: 2024-12-30 11:16:11.010957
+2024-12-30 11:19:05,837 - INFO - Dataset Statistics:
+2024-12-30 11:19:05,838 - INFO - Training samples: 1281167
+2024-12-30 11:19:05,838 - INFO - Validation samples: 50000
+2024-12-30 11:19:05,838 - INFO - Number of classes: 1000
+2024-12-30 11:19:05,838 - INFO - Batch size: 450
+2024-12-30 11:19:05,838 - INFO - Training batches per epoch: 712
+2024-12-30 11:19:05,838 - INFO - Validation batches per epoch: 28
+2024-12-30 11:19:09,877 - INFO - No checkpoint found, starting training from scratch
+2024-12-30 11:19:09,878 - INFO - Starting epoch 0
+2024-12-30 11:37:35,474 - INFO - Epoch 0 completed in 0:18:25.594391, Training Loss: 7.1113, Training Accuracy: 0.10%
+2024-12-30 11:38:32,282 - INFO - Validation metrics - Top1 Acc: 0.10%, Top5 Acc: 0.49%, Val Loss: 7.0405
+2024-12-30 11:38:32,283 - INFO - Total training time so far: 0:18:25.594391
+2024-12-30 11:38:34,021 - INFO - Starting epoch 1
+2024-12-30 11:57:09,236 - INFO - Epoch 1 completed in 0:18:35.212672, Training Loss: 6.8149, Training Accuracy: 0.39%
+2024-12-30 11:58:05,670 - INFO - Validation metrics - Top1 Acc: 1.31%, Top5 Acc: 4.90%, Val Loss: 6.5083
+2024-12-30 11:58:05,670 - INFO - Total training time so far: 0:37:00.807063
+2024-12-30 11:58:07,480 - INFO - Starting epoch 2
+2024-12-30 12:17:54,339 - INFO - Epoch 2 completed in 0:19:46.813032, Training Loss: 6.1833, Training Accuracy: 2.94%
+2024-12-30 12:18:54,117 - INFO - Validation metrics - Top1 Acc: 6.66%, Top5 Acc: 18.00%, Val Loss: 5.6740
+2024-12-30 12:18:54,117 - INFO - Total training time so far: 0:56:47.620095
+2024-12-30 12:18:55,851 - INFO - Starting epoch 3
+2024-12-30 12:38:44,238 - INFO - Epoch 3 completed in 0:19:48.385036, Training Loss: 5.6184, Training Accuracy: 7.41%
+2024-12-30 12:39:45,085 - INFO - Validation metrics - Top1 Acc: 6.79%, Top5 Acc: 18.07%, Val Loss: 5.8454
+2024-12-30 12:39:45,085 - INFO - Total training time so far: 1:16:36.005131
+2024-12-30 12:39:46,933 - INFO - Starting epoch 4
+2024-12-30 12:59:35,022 - INFO - Epoch 4 completed in 0:19:48.086961, Training Loss: 5.1607, Training Accuracy: 12.79%
+2024-12-30 13:00:35,444 - INFO - Validation metrics - Top1 Acc: 15.20%, Top5 Acc: 33.35%, Val Loss: 5.0368
+2024-12-30 13:00:35,520 - INFO - Total training time so far: 1:36:24.092092
+2024-12-30 13:00:37,359 - INFO - Starting epoch 5
+2024-12-30 13:21:07,468 - INFO - Epoch 5 completed in 0:20:30.106734, Training Loss: 4.7564, Training Accuracy: 18.47%
+2024-12-30 13:22:11,306 - INFO - Validation metrics - Top1 Acc: 25.69%, Top5 Acc: 50.22%, Val Loss: 4.2141
+2024-12-30 13:22:11,306 - INFO - Total training time so far: 1:56:54.198826
+2024-12-30 13:22:13,359 - INFO - Starting epoch 6
+2024-12-30 13:42:25,793 - INFO - Epoch 6 completed in 0:20:12.432555, Training Loss: 4.3976, Training Accuracy: 24.31%
+2024-12-30 13:43:27,241 - INFO - Validation metrics - Top1 Acc: 27.84%, Top5 Acc: 52.82%, Val Loss: 4.1060
+2024-12-30 13:43:27,241 - INFO - Total training time so far: 2:17:06.631381
+2024-12-30 13:43:29,065 - INFO - Starting epoch 7
+2024-12-30 14:03:59,938 - INFO - Epoch 7 completed in 0:20:30.826749, Training Loss: 4.1257, Training Accuracy: 28.96%
+2024-12-30 14:05:07,062 - INFO - Validation metrics - Top1 Acc: 33.47%, Top5 Acc: 58.87%, Val Loss: 3.8580
+2024-12-30 14:05:07,062 - INFO - Total training time so far: 2:37:37.458130
+2024-12-30 14:05:08,967 - INFO - Starting epoch 8
+2024-12-30 14:26:41,349 - INFO - Epoch 8 completed in 0:21:32.379610, Training Loss: 3.9253, Training Accuracy: 32.56%
+2024-12-30 14:27:46,179 - INFO - Validation metrics - Top1 Acc: 38.23%, Top5 Acc: 64.22%, Val Loss: 3.5719
+2024-12-30 14:27:46,179 - INFO - Total training time so far: 2:59:09.837740
+2024-12-30 14:27:48,706 - INFO - Starting epoch 9
+2024-12-30 14:48:59,673 - INFO - Epoch 9 completed in 0:21:10.965120, Training Loss: 3.7733, Training Accuracy: 35.60%
+2024-12-30 14:50:03,344 - INFO - Validation metrics - Top1 Acc: 40.02%, Top5 Acc: 66.18%, Val Loss: 3.5083
+2024-12-30 14:50:03,420 - INFO - Total training time so far: 3:20:20.802860
+2024-12-30 14:50:06,096 - INFO - Starting epoch 10
+2024-12-30 15:11:26,083 - INFO - Epoch 10 completed in 0:21:19.984312, Training Loss: 3.6425, Training Accuracy: 38.20%
+2024-12-30 15:12:33,377 - INFO - Validation metrics - Top1 Acc: 42.85%, Top5 Acc: 69.13%, Val Loss: 3.3407
+2024-12-30 15:12:33,377 - INFO - Total training time so far: 3:41:40.787172
+2024-12-30 15:12:35,291 - INFO - Starting epoch 11
+2024-12-30 15:34:35,850 - INFO - Epoch 11 completed in 0:22:00.558082, Training Loss: 3.5362, Training Accuracy: 40.24%
+2024-12-30 15:35:42,697 - INFO - Validation metrics - Top1 Acc: 44.55%, Top5 Acc: 70.24%, Val Loss: 3.2872
+2024-12-30 15:35:42,697 - INFO - Total training time so far: 4:03:41.345254
+2024-12-30 15:35:44,646 - INFO - Starting epoch 12
+2024-12-30 15:57:23,839 - INFO - Epoch 12 completed in 0:21:39.132157, Training Loss: 3.4611, Training Accuracy: 41.66%
+2024-12-30 15:58:28,614 - INFO - Validation metrics - Top1 Acc: 46.82%, Top5 Acc: 72.55%, Val Loss: 3.1543
+2024-12-30 15:58:28,614 - INFO - Total training time so far: 4:25:20.477411
+2024-12-30 15:58:30,523 - INFO - Starting epoch 13
+2024-12-30 16:20:25,158 - INFO - Epoch 13 completed in 0:21:54.633002, Training Loss: 3.3829, Training Accuracy: 43.51%
+2024-12-30 16:21:31,663 - INFO - Validation metrics - Top1 Acc: 47.87%, Top5 Acc: 73.42%, Val Loss: 3.1213
+2024-12-30 16:21:31,663 - INFO - Total training time so far: 4:47:15.110413
+2024-12-30 16:21:33,618 - INFO - Starting epoch 14
+2024-12-30 16:43:20,598 - INFO - Epoch 14 completed in 0:21:46.978352, Training Loss: 3.3186, Training Accuracy: 44.81%
+2024-12-30 16:44:27,331 - INFO - Validation metrics - Top1 Acc: 48.78%, Top5 Acc: 74.44%, Val Loss: 3.0728
+2024-12-30 16:44:27,422 - INFO - Total training time so far: 5:09:02.088765
+2024-12-30 16:44:29,192 - INFO - Starting epoch 15
+2024-12-30 17:06:00,227 - INFO - Epoch 15 completed in 0:21:31.034137, Training Loss: 3.2674, Training Accuracy: 45.83%
+2024-12-30 17:07:09,733 - INFO - Validation metrics - Top1 Acc: 50.98%, Top5 Acc: 75.94%, Val Loss: 2.9955
+2024-12-30 17:07:09,733 - INFO - Total training time so far: 5:30:33.122902
+2024-12-30 17:07:11,533 - INFO - Starting epoch 16
+2024-12-30 17:29:11,131 - INFO - Epoch 16 completed in 0:21:59.596759, Training Loss: 3.2201, Training Accuracy: 46.67%
+2024-12-30 17:30:19,426 - INFO - Validation metrics - Top1 Acc: 52.58%, Top5 Acc: 77.69%, Val Loss: 2.9074
+2024-12-30 17:30:19,426 - INFO - Total training time so far: 5:52:32.719661
+2024-12-30 17:30:21,971 - INFO - Starting epoch 17
+2024-12-30 17:52:33,710 - INFO - Epoch 17 completed in 0:22:11.674948, Training Loss: 3.1790, Training Accuracy: 47.69%
+2024-12-30 17:53:40,355 - INFO - Validation metrics - Top1 Acc: 53.82%, Top5 Acc: 77.98%, Val Loss: 2.8842
+2024-12-30 17:53:40,355 - INFO - Total training time so far: 6:14:44.394609
+2024-12-30 17:53:42,136 - INFO - Starting epoch 18
+2024-12-30 18:16:32,684 - INFO - Epoch 18 completed in 0:22:50.546341, Training Loss: 3.1360, Training Accuracy: 48.66%
+2024-12-30 18:17:41,427 - INFO - Validation metrics - Top1 Acc: 52.75%, Top5 Acc: 77.40%, Val Loss: 2.9182
+2024-12-30 18:17:41,427 - INFO - Total training time so far: 6:37:34.940950
+2024-12-30 18:17:42,537 - INFO - Starting epoch 19
+2024-12-30 18:39:52,693 - INFO - Epoch 19 completed in 0:22:10.154138, Training Loss: 3.1009, Training Accuracy: 49.43%
+2024-12-30 18:40:59,710 - INFO - Validation metrics - Top1 Acc: 55.00%, Top5 Acc: 79.06%, Val Loss: 2.8164
+2024-12-30 18:40:59,805 - INFO - Total training time so far: 6:59:45.095088
+2024-12-30 18:41:01,744 - INFO - Starting epoch 20
+2024-12-30 19:02:35,283 - INFO - Epoch 20 completed in 0:21:33.536863, Training Loss: 3.0782, Training Accuracy: 49.83%
+2024-12-30 19:03:42,674 - INFO - Validation metrics - Top1 Acc: 54.77%, Top5 Acc: 79.11%, Val Loss: 2.7989
+2024-12-30 19:03:42,674 - INFO - Total training time so far: 7:21:18.631951
+2024-12-30 19:03:43,623 - INFO - Starting epoch 21
+2024-12-30 19:25:51,069 - INFO - Epoch 21 completed in 0:22:07.443437, Training Loss: 3.0470, Training Accuracy: 50.45%
+2024-12-30 19:26:56,866 - INFO - Validation metrics - Top1 Acc: 55.18%, Top5 Acc: 79.95%, Val Loss: 2.7760
+2024-12-30 19:26:56,866 - INFO - Total training time so far: 7:43:26.075388
+2024-12-30 19:26:58,702 - INFO - Starting epoch 22
+2024-12-30 19:48:23,169 - INFO - Epoch 22 completed in 0:21:24.410491, Training Loss: 3.0221, Training Accuracy: 50.95%
+2024-12-30 19:49:27,237 - INFO - Validation metrics - Top1 Acc: 54.46%, Top5 Acc: 79.11%, Val Loss: 2.8089
+2024-12-30 19:49:27,237 - INFO - Total training time so far: 8:04:50.485879
+2024-12-30 19:49:28,282 - INFO - Starting epoch 23
+2024-12-30 20:11:07,922 - INFO - Epoch 23 completed in 0:21:39.638497, Training Loss: 3.0026, Training Accuracy: 51.43%
+2024-12-30 20:12:14,255 - INFO - Validation metrics - Top1 Acc: 57.42%, Top5 Acc: 81.00%, Val Loss: 2.6857
+2024-12-30 20:12:14,255 - INFO - Total training time so far: 8:26:30.124376
+2024-12-30 20:12:16,019 - INFO - Starting epoch 24
+2024-12-30 20:33:28,346 - INFO - Epoch 24 completed in 0:21:12.324716, Training Loss: 2.9792, Training Accuracy: 51.83%
+2024-12-30 20:34:30,401 - INFO - Validation metrics - Top1 Acc: 57.08%, Top5 Acc: 81.08%, Val Loss: 2.7003
+2024-12-30 20:34:30,458 - INFO - Total training time so far: 8:47:42.449092
+2024-12-30 20:34:31,573 - INFO - Starting epoch 25
+2024-12-30 20:56:07,664 - INFO - Epoch 25 completed in 0:21:36.089508, Training Loss: 2.9605, Training Accuracy: 52.26%
+2024-12-30 20:57:05,615 - INFO - Validation metrics - Top1 Acc: 58.38%, Top5 Acc: 81.78%, Val Loss: 2.6397
+2024-12-30 20:57:05,615 - INFO - Total training time so far: 9:09:18.538600
+2024-12-30 20:57:07,411 - INFO - Starting epoch 26
+2024-12-30 21:16:47,094 - INFO - Epoch 26 completed in 0:19:39.681107, Training Loss: 2.9419, Training Accuracy: 52.77%
+2024-12-30 21:17:47,117 - INFO - Validation metrics - Top1 Acc: 56.17%, Top5 Acc: 80.37%, Val Loss: 2.7404
+2024-12-30 21:17:47,117 - INFO - Total training time so far: 9:28:58.219707
+2024-12-30 21:17:48,153 - INFO - Starting epoch 27
+2024-12-30 21:36:39,176 - INFO - Epoch 27 completed in 0:18:50.955084, Training Loss: 2.9268, Training Accuracy: 53.01%
+2024-12-30 21:37:35,999 - INFO - Validation metrics - Top1 Acc: 56.21%, Top5 Acc: 80.52%, Val Loss: 2.7265
+2024-12-30 21:37:35,999 - INFO - Total training time so far: 9:47:49.174791
+2024-12-30 21:37:36,954 - INFO - Starting epoch 28
+2024-12-30 21:55:56,875 - INFO - Epoch 28 completed in 0:18:19.918567, Training Loss: 2.9094, Training Accuracy: 53.41%
+2024-12-30 21:56:50,592 - INFO - Validation metrics - Top1 Acc: 57.50%, Top5 Acc: 81.91%, Val Loss: 2.6538
+2024-12-30 21:56:50,592 - INFO - Total training time so far: 10:06:09.093358
+2024-12-30 21:56:51,572 - INFO - Starting epoch 29
+2024-12-30 22:15:19,045 - INFO - Epoch 29 completed in 0:18:27.471368, Training Loss: 2.8982, Training Accuracy: 53.76%
+2024-12-30 22:16:15,208 - INFO - Validation metrics - Top1 Acc: 58.24%, Top5 Acc: 81.90%, Val Loss: 2.6329
+2024-12-30 22:16:15,298 - INFO - Total training time so far: 10:24:36.564726
+2024-12-30 22:16:16,369 - INFO - Starting epoch 30
+2024-12-30 22:35:28,071 - INFO - Epoch 30 completed in 0:19:11.699811, Training Loss: 2.8781, Training Accuracy: 54.04%
+2024-12-30 22:36:25,558 - INFO - Validation metrics - Top1 Acc: 59.64%, Top5 Acc: 82.82%, Val Loss: 2.5847
+2024-12-30 22:36:25,558 - INFO - Total training time so far: 10:43:48.264537
+2024-12-30 22:36:27,271 - INFO - Starting epoch 31
+2024-12-30 22:54:45,113 - INFO - Epoch 31 completed in 0:18:17.839996, Training Loss: 2.8695, Training Accuracy: 54.26%
+2024-12-30 22:55:39,814 - INFO - Validation metrics - Top1 Acc: 58.22%, Top5 Acc: 81.72%, Val Loss: 2.6448
+2024-12-30 22:55:39,814 - INFO - Total training time so far: 11:02:06.104533
+2024-12-30 22:55:40,857 - INFO - Starting epoch 32
+2024-12-30 23:13:37,574 - INFO - Epoch 32 completed in 0:17:56.639509, Training Loss: 2.8515, Training Accuracy: 54.79%
+2024-12-30 23:14:31,324 - INFO - Validation metrics - Top1 Acc: 60.69%, Top5 Acc: 83.86%, Val Loss: 2.5332
+2024-12-30 23:14:31,324 - INFO - Total training time so far: 11:20:02.744042
+2024-12-30 23:14:33,376 - INFO - Starting epoch 33
+2024-12-30 23:32:09,243 - INFO - Epoch 33 completed in 0:17:35.865471, Training Loss: 2.8372, Training Accuracy: 55.04%
+2024-12-30 23:33:03,024 - INFO - Validation metrics - Top1 Acc: 61.17%, Top5 Acc: 84.30%, Val Loss: 2.5139
+2024-12-30 23:33:03,024 - INFO - Total training time so far: 11:37:38.609513
+2024-12-30 23:33:04,742 - INFO - Starting epoch 34
+2024-12-30 23:50:27,324 - INFO - Epoch 34 completed in 0:17:22.580350, Training Loss: 2.8185, Training Accuracy: 55.32%
+2024-12-30 23:51:18,875 - INFO - Validation metrics - Top1 Acc: 59.62%, Top5 Acc: 82.88%, Val Loss: 2.5864
+2024-12-30 23:51:18,968 - INFO - Total training time so far: 11:55:01.189863
+2024-12-30 23:51:19,942 - INFO - Starting epoch 35
+2024-12-31 00:08:58,040 - INFO - Epoch 35 completed in 0:17:38.096896, Training Loss: 2.8173, Training Accuracy: 55.37%
+2024-12-31 00:09:55,428 - INFO - Validation metrics - Top1 Acc: 59.64%, Top5 Acc: 83.23%, Val Loss: 2.5667
+2024-12-31 00:09:55,429 - INFO - Total training time so far: 12:12:39.286759
+2024-12-31 00:09:56,457 - INFO - Starting epoch 36
+2024-12-31 00:28:02,342 - INFO - Epoch 36 completed in 0:18:05.882859, Training Loss: 2.8017, Training Accuracy: 55.82%
+2024-12-31 00:28:57,148 - INFO - Validation metrics - Top1 Acc: 59.37%, Top5 Acc: 83.06%, Val Loss: 2.5790
+2024-12-31 00:28:57,148 - INFO - Total training time so far: 12:30:45.169618
+2024-12-31 00:28:58,142 - INFO - Starting epoch 37
+2024-12-31 00:47:41,713 - INFO - Epoch 37 completed in 0:18:43.503405, Training Loss: 2.7978, Training Accuracy: 55.83%
+2024-12-31 00:48:32,845 - INFO - Validation metrics - Top1 Acc: 60.58%, Top5 Acc: 83.40%, Val Loss: 2.5338
+2024-12-31 00:48:32,845 - INFO - Total training time so far: 12:49:28.673023
+2024-12-31 00:48:33,913 - INFO - Starting epoch 38
+2024-12-31 01:05:29,292 - INFO - Epoch 38 completed in 0:16:55.377496, Training Loss: 2.7862, Training Accuracy: 56.02%
+2024-12-31 01:06:22,187 - INFO - Validation metrics - Top1 Acc: 61.14%, Top5 Acc: 84.15%, Val Loss: 2.5031
+2024-12-31 01:06:22,188 - INFO - Total training time so far: 13:06:24.050519
+2024-12-31 01:06:23,169 - INFO - Starting epoch 39
+2024-12-31 01:23:40,404 - INFO - Epoch 39 completed in 0:17:17.233055, Training Loss: 2.7760, Training Accuracy: 56.39%
+2024-12-31 01:24:31,548 - INFO - Validation metrics - Top1 Acc: 59.92%, Top5 Acc: 83.51%, Val Loss: 2.5606
+2024-12-31 01:24:31,614 - INFO - Total training time so far: 13:23:41.283574
+2024-12-31 01:24:32,546 - INFO - Starting epoch 40
+2024-12-31 01:41:10,995 - INFO - Epoch 40 completed in 0:16:38.447193, Training Loss: 2.7676, Training Accuracy: 56.58%
+2024-12-31 01:42:01,558 - INFO - Validation metrics - Top1 Acc: 61.11%, Top5 Acc: 84.18%, Val Loss: 2.5100
+2024-12-31 01:42:01,558 - INFO - Total training time so far: 13:40:19.730767
+2024-12-31 01:42:02,539 - INFO - Starting epoch 41
+2024-12-31 01:58:17,277 - INFO - Epoch 41 completed in 0:16:14.737160, Training Loss: 2.7552, Training Accuracy: 56.84%
+2024-12-31 01:59:06,529 - INFO - Validation metrics - Top1 Acc: 59.71%, Top5 Acc: 83.46%, Val Loss: 2.5634
+2024-12-31 01:59:06,529 - INFO - Total training time so far: 13:56:34.467927
+2024-12-31 01:59:07,460 - INFO - Starting epoch 42
+2024-12-31 02:16:14,166 - INFO - Epoch 42 completed in 0:17:06.656019, Training Loss: 2.7417, Training Accuracy: 57.09%
+2024-12-31 02:17:05,659 - INFO - Validation metrics - Top1 Acc: 62.98%, Top5 Acc: 85.52%, Val Loss: 2.4257
+2024-12-31 02:17:05,659 - INFO - Total training time so far: 14:13:41.123946
+2024-12-31 02:17:07,507 - INFO - Starting epoch 43
+2024-12-31 02:34:45,817 - INFO - Epoch 43 completed in 0:17:38.308378, Training Loss: 2.7338, Training Accuracy: 57.22%
+2024-12-31 02:35:36,539 - INFO - Validation metrics - Top1 Acc: 60.86%, Top5 Acc: 84.19%, Val Loss: 2.5132
+2024-12-31 02:35:36,539 - INFO - Total training time so far: 14:31:19.432324
+2024-12-31 02:35:37,472 - INFO - Starting epoch 44
+2024-12-31 02:51:58,560 - INFO - Epoch 44 completed in 0:16:21.085943, Training Loss: 2.7260, Training Accuracy: 57.40%
+2024-12-31 02:52:47,305 - INFO - Validation metrics - Top1 Acc: 62.53%, Top5 Acc: 85.15%, Val Loss: 2.4629
+2024-12-31 02:52:47,395 - INFO - Total training time so far: 14:47:40.518267
+2024-12-31 02:52:48,346 - INFO - Starting epoch 45
+2024-12-31 03:09:03,196 - INFO - Epoch 45 completed in 0:16:14.848673, Training Loss: 2.7205, Training Accuracy: 57.49%
+2024-12-31 03:09:54,004 - INFO - Validation metrics - Top1 Acc: 63.72%, Top5 Acc: 85.83%, Val Loss: 2.4040
+2024-12-31 03:09:54,005 - INFO - Total training time so far: 15:03:55.366940
+2024-12-31 03:09:55,763 - INFO - Starting epoch 46
+2024-12-31 03:27:03,356 - INFO - Epoch 46 completed in 0:17:07.590667, Training Loss: 2.7150, Training Accuracy: 57.73%
+2024-12-31 03:27:52,166 - INFO - Validation metrics - Top1 Acc: 62.48%, Top5 Acc: 85.40%, Val Loss: 2.4424
+2024-12-31 03:27:52,166 - INFO - Total training time so far: 15:21:02.957607
+2024-12-31 03:27:53,136 - INFO - Starting epoch 47
+2024-12-31 03:43:54,802 - INFO - Epoch 47 completed in 0:16:01.627164, Training Loss: 2.6975, Training Accuracy: 57.99%
+2024-12-31 03:44:43,423 - INFO - Validation metrics - Top1 Acc: 63.60%, Top5 Acc: 85.74%, Val Loss: 2.4011
+2024-12-31 03:44:43,423 - INFO - Total training time so far: 15:37:04.584771
+2024-12-31 03:44:44,365 - INFO - Starting epoch 48
+2024-12-31 04:00:43,789 - INFO - Epoch 48 completed in 0:15:59.422504, Training Loss: 2.6902, Training Accuracy: 58.15%
+2024-12-31 04:01:34,836 - INFO - Validation metrics - Top1 Acc: 63.54%, Top5 Acc: 85.48%, Val Loss: 2.4344
+2024-12-31 04:01:34,836 - INFO - Total training time so far: 15:53:04.007275
+2024-12-31 04:01:35,803 - INFO - Starting epoch 49
+2024-12-31 04:20:06,205 - INFO - Epoch 49 completed in 0:18:30.400555, Training Loss: 2.6866, Training Accuracy: 58.34%
+2024-12-31 04:21:00,935 - INFO - Validation metrics - Top1 Acc: 63.82%, Top5 Acc: 86.10%, Val Loss: 2.3864
+2024-12-31 04:21:01,002 - INFO - Total training time so far: 16:11:34.407830
+2024-12-31 04:21:02,593 - INFO - Starting epoch 50
+2024-12-31 04:38:55,453 - INFO - Epoch 50 completed in 0:17:52.858349, Training Loss: 2.6767, Training Accuracy: 58.37%
+2024-12-31 04:39:49,475 - INFO - Validation metrics - Top1 Acc: 63.14%, Top5 Acc: 85.48%, Val Loss: 2.4274
+2024-12-31 04:39:49,476 - INFO - Total training time so far: 16:29:27.266179
+2024-12-31 04:39:50,386 - INFO - Starting epoch 51
+2024-12-31 04:57:19,708 - INFO - Epoch 51 completed in 0:17:29.320111, Training Loss: 2.6669, Training Accuracy: 58.69%
+2024-12-31 04:58:11,685 - INFO - Validation metrics - Top1 Acc: 65.62%, Top5 Acc: 87.02%, Val Loss: 2.3372
+2024-12-31 04:58:11,685 - INFO - Total training time so far: 16:46:56.586290
+2024-12-31 04:58:13,403 - INFO - Starting epoch 52
+2024-12-31 05:15:58,873 - INFO - Epoch 52 completed in 0:17:45.416279, Training Loss: 2.6591, Training Accuracy: 58.97%
+2024-12-31 05:16:51,558 - INFO - Validation metrics - Top1 Acc: 64.20%, Top5 Acc: 85.96%, Val Loss: 2.3845
+2024-12-31 05:16:51,558 - INFO - Total training time so far: 17:04:42.002569
+2024-12-31 05:16:52,529 - INFO - Starting epoch 53
+2024-12-31 05:33:54,511 - INFO - Epoch 53 completed in 0:17:01.979500, Training Loss: 2.6571, Training Accuracy: 59.00%
+2024-12-31 05:34:45,478 - INFO - Validation metrics - Top1 Acc: 63.37%, Top5 Acc: 85.73%, Val Loss: 2.4067
+2024-12-31 05:34:45,478 - INFO - Total training time so far: 17:21:43.982069
+2024-12-31 05:34:46,404 - INFO - Starting epoch 54
+2024-12-31 05:51:24,991 - INFO - Epoch 54 completed in 0:16:38.584754, Training Loss: 2.6456, Training Accuracy: 59.26%
+2024-12-31 05:52:15,265 - INFO - Validation metrics - Top1 Acc: 64.42%, Top5 Acc: 86.71%, Val Loss: 2.3561
+2024-12-31 05:52:15,337 - INFO - Total training time so far: 17:38:22.566823
+2024-12-31 05:52:16,210 - INFO - Starting epoch 55
+2024-12-31 06:08:50,225 - INFO - Epoch 55 completed in 0:16:34.012747, Training Loss: 2.6384, Training Accuracy: 59.40%
+2024-12-31 06:09:40,965 - INFO - Validation metrics - Top1 Acc: 65.31%, Top5 Acc: 86.74%, Val Loss: 2.3346
+2024-12-31 06:09:40,966 - INFO - Total training time so far: 17:54:56.579570
+2024-12-31 06:09:44,134 - INFO - Starting epoch 56
+2024-12-31 06:26:27,156 - INFO - Epoch 56 completed in 0:16:43.019997, Training Loss: 2.6358, Training Accuracy: 59.43%
+2024-12-31 06:27:16,826 - INFO - Validation metrics - Top1 Acc: 64.09%, Top5 Acc: 85.90%, Val Loss: 2.3814
+2024-12-31 06:27:16,826 - INFO - Total training time so far: 18:11:39.599567
+2024-12-31 06:27:17,767 - INFO - Starting epoch 57
+2024-12-31 06:44:44,858 - INFO - Epoch 57 completed in 0:17:27.025184, Training Loss: 2.6246, Training Accuracy: 59.70%
+2024-12-31 06:45:34,207 - INFO - Validation metrics - Top1 Acc: 65.49%, Top5 Acc: 87.17%, Val Loss: 2.3140
+2024-12-31 06:45:34,207 - INFO - Total training time so far: 18:29:06.624751
+2024-12-31 06:45:35,219 - INFO - Starting epoch 58
+2024-12-31 07:02:19,330 - INFO - Epoch 58 completed in 0:16:44.108438, Training Loss: 2.6168, Training Accuracy: 59.92%
+2024-12-31 07:03:10,157 - INFO - Validation metrics - Top1 Acc: 64.39%, Top5 Acc: 86.30%, Val Loss: 2.3616
+2024-12-31 07:03:10,158 - INFO - Total training time so far: 18:45:50.733189
+2024-12-31 07:03:11,118 - INFO - Starting epoch 59
+2024-12-31 07:19:58,108 - INFO - Epoch 59 completed in 0:16:46.987755, Training Loss: 2.6088, Training Accuracy: 60.02%
+2024-12-31 07:20:49,066 - INFO - Validation metrics - Top1 Acc: 65.02%, Top5 Acc: 86.63%, Val Loss: 2.3365
+2024-12-31 07:20:49,133 - INFO - Total training time so far: 19:02:37.720944
+2024-12-31 07:20:50,031 - INFO - Starting epoch 60
+2024-12-31 07:37:10,897 - INFO - Epoch 60 completed in 0:16:20.864383, Training Loss: 2.6066, Training Accuracy: 60.15%
+2024-12-31 07:37:59,397 - INFO - Validation metrics - Top1 Acc: 65.89%, Top5 Acc: 87.45%, Val Loss: 2.2944
+2024-12-31 07:37:59,397 - INFO - Total training time so far: 19:18:58.585327
+2024-12-31 07:38:01,105 - INFO - Starting epoch 61
+2024-12-31 07:54:02,531 - INFO - Epoch 61 completed in 0:16:01.423474, Training Loss: 2.5927, Training Accuracy: 60.44%
+2024-12-31 07:54:50,908 - INFO - Validation metrics - Top1 Acc: 65.28%, Top5 Acc: 86.74%, Val Loss: 2.3396
+2024-12-31 07:54:50,908 - INFO - Total training time so far: 19:35:00.008801
+2024-12-31 07:54:51,855 - INFO - Starting epoch 62
+2024-12-31 08:11:28,035 - INFO - Epoch 62 completed in 0:16:36.095334, Training Loss: 2.5921, Training Accuracy: 60.36%
+2024-12-31 08:12:19,326 - INFO - Validation metrics - Top1 Acc: 65.71%, Top5 Acc: 87.31%, Val Loss: 2.3077
+2024-12-31 08:12:19,327 - INFO - Total training time so far: 19:51:36.104135
+2024-12-31 08:12:20,504 - INFO - Starting epoch 63
+2024-12-31 08:28:53,444 - INFO - Epoch 63 completed in 0:16:32.938124, Training Loss: 2.5808, Training Accuracy: 60.76%
+2024-12-31 08:29:44,574 - INFO - Validation metrics - Top1 Acc: 66.28%, Top5 Acc: 87.46%, Val Loss: 2.2871
+2024-12-31 08:29:44,574 - INFO - Total training time so far: 20:08:09.042259
+2024-12-31 08:29:46,270 - INFO - Starting epoch 64
+2024-12-31 08:45:45,908 - INFO - Epoch 64 completed in 0:15:59.635666, Training Loss: 2.5755, Training Accuracy: 60.81%
+2024-12-31 08:46:33,643 - INFO - Validation metrics - Top1 Acc: 66.27%, Top5 Acc: 87.41%, Val Loss: 2.2922
+2024-12-31 08:46:33,728 - INFO - Total training time so far: 20:24:08.677925
+2024-12-31 08:46:34,709 - INFO - Starting epoch 65
+2024-12-31 09:02:12,183 - INFO - Epoch 65 completed in 0:15:37.472078, Training Loss: 2.5678, Training Accuracy: 61.01%
+2024-12-31 09:03:02,186 - INFO - Validation metrics - Top1 Acc: 66.95%, Top5 Acc: 87.74%, Val Loss: 2.2658
+2024-12-31 09:03:02,186 - INFO - Total training time so far: 20:39:46.150003
+2024-12-31 09:03:03,840 - INFO - Starting epoch 66
+2024-12-31 09:19:28,178 - INFO - Epoch 66 completed in 0:16:24.336373, Training Loss: 2.5594, Training Accuracy: 61.13%
+2024-12-31 09:20:18,424 - INFO - Validation metrics - Top1 Acc: 66.10%, Top5 Acc: 86.98%, Val Loss: 2.3107
+2024-12-31 09:20:18,424 - INFO - Total training time so far: 20:56:10.486376
+2024-12-31 09:20:19,394 - INFO - Starting epoch 67
+2024-12-31 09:36:33,881 - INFO - Epoch 67 completed in 0:16:14.440795, Training Loss: 2.5496, Training Accuracy: 61.35%
+2024-12-31 09:37:22,463 - INFO - Validation metrics - Top1 Acc: 65.62%, Top5 Acc: 87.33%, Val Loss: 2.3049
+2024-12-31 09:37:22,463 - INFO - Total training time so far: 21:12:24.927171
+2024-12-31 09:37:23,512 - INFO - Starting epoch 68
+2024-12-31 09:53:13,619 - INFO - Epoch 68 completed in 0:15:50.105096, Training Loss: 2.5458, Training Accuracy: 61.50%
+2024-12-31 09:54:02,315 - INFO - Validation metrics - Top1 Acc: 66.74%, Top5 Acc: 87.66%, Val Loss: 2.2676
+2024-12-31 09:54:02,315 - INFO - Total training time so far: 21:28:15.032267
+2024-12-31 09:54:03,749 - INFO - Starting epoch 69
+2024-12-31 10:10:35,668 - INFO - Epoch 69 completed in 0:16:31.917696, Training Loss: 2.5404, Training Accuracy: 61.66%
+2024-12-31 10:11:26,885 - INFO - Validation metrics - Top1 Acc: 66.58%, Top5 Acc: 88.10%, Val Loss: 2.2715
+2024-12-31 10:11:26,965 - INFO - Total training time so far: 21:44:46.949963
+2024-12-31 10:11:27,907 - INFO - Starting epoch 70
+2024-12-31 10:27:59,374 - INFO - Epoch 70 completed in 0:16:31.465143, Training Loss: 2.5303, Training Accuracy: 61.85%
+2024-12-31 10:28:49,082 - INFO - Validation metrics - Top1 Acc: 65.93%, Top5 Acc: 87.33%, Val Loss: 2.2958
+2024-12-31 10:28:49,082 - INFO - Total training time so far: 22:01:18.415106
+2024-12-31 10:28:50,062 - INFO - Starting epoch 71
+2024-12-31 10:44:49,565 - INFO - Epoch 71 completed in 0:15:59.500902, Training Loss: 2.5188, Training Accuracy: 62.13%
+2024-12-31 10:45:38,780 - INFO - Validation metrics - Top1 Acc: 67.32%, Top5 Acc: 88.59%, Val Loss: 2.2383
+2024-12-31 10:45:38,780 - INFO - Total training time so far: 22:17:17.916008
+2024-12-31 10:45:40,491 - INFO - Starting epoch 72
+2024-12-31 11:01:46,316 - INFO - Epoch 72 completed in 0:16:05.774450, Training Loss: 2.5207, Training Accuracy: 62.17%
+2024-12-31 11:02:37,543 - INFO - Validation metrics - Top1 Acc: 67.50%, Top5 Acc: 88.46%, Val Loss: 2.2306
+2024-12-31 11:02:37,543 - INFO - Total training time so far: 22:33:23.690458
+2024-12-31 11:02:39,374 - INFO - Starting epoch 73
+2024-12-31 11:19:47,854 - INFO - Epoch 73 completed in 0:17:08.477931, Training Loss: 2.5088, Training Accuracy: 62.47%
+2024-12-31 11:20:38,342 - INFO - Validation metrics - Top1 Acc: 67.09%, Top5 Acc: 87.71%, Val Loss: 2.2478
+2024-12-31 11:20:38,342 - INFO - Total training time so far: 22:50:32.168389
+2024-12-31 11:20:39,384 - INFO - Starting epoch 74
+2024-12-31 11:37:15,094 - INFO - Epoch 74 completed in 0:16:35.708748, Training Loss: 2.5033, Training Accuracy: 62.44%
+2024-12-31 11:38:06,760 - INFO - Validation metrics - Top1 Acc: 68.23%, Top5 Acc: 88.63%, Val Loss: 2.2073
+2024-12-31 11:38:06,855 - INFO - Total training time so far: 23:07:07.877137
+2024-12-31 11:38:08,537 - INFO - Starting epoch 75
+2024-12-31 11:55:05,894 - INFO - Epoch 75 completed in 0:16:57.354992, Training Loss: 2.4916, Training Accuracy: 62.80%
+2024-12-31 11:55:57,638 - INFO - Validation metrics - Top1 Acc: 67.85%, Top5 Acc: 88.13%, Val Loss: 2.2349
+2024-12-31 11:55:57,638 - INFO - Total training time so far: 23:24:05.232129
+2024-12-31 11:55:58,561 - INFO - Starting epoch 76
+2024-12-31 12:14:03,518 - INFO - Epoch 76 completed in 0:18:04.956001, Training Loss: 2.4848, Training Accuracy: 62.87%
+2024-12-31 12:15:00,807 - INFO - Validation metrics - Top1 Acc: 67.86%, Top5 Acc: 88.62%, Val Loss: 2.2184
+2024-12-31 12:15:00,807 - INFO - Total training time so far: 23:42:10.188130
+2024-12-31 12:15:01,862 - INFO - Starting epoch 77
+2024-12-31 12:34:00,263 - INFO - Epoch 77 completed in 0:18:58.317876, Training Loss: 2.4759, Training Accuracy: 63.14%
+2024-12-31 12:34:58,583 - INFO - Validation metrics - Top1 Acc: 67.30%, Top5 Acc: 87.97%, Val Loss: 2.2315
+2024-12-31 12:34:58,583 - INFO - Total training time so far: 1 day, 0:01:08.506006
+2024-12-31 12:34:59,580 - INFO - Starting epoch 78
+2024-12-31 12:53:59,753 - INFO - Epoch 78 completed in 0:19:00.170370, Training Loss: 2.4786, Training Accuracy: 63.02%
+2024-12-31 12:54:57,213 - INFO - Validation metrics - Top1 Acc: 68.86%, Top5 Acc: 88.91%, Val Loss: 2.1826
+2024-12-31 12:54:57,213 - INFO - Total training time so far: 1 day, 0:20:08.676376
+2024-12-31 12:54:59,091 - INFO - Starting epoch 79
+2024-12-31 13:15:07,020 - INFO - Epoch 79 completed in 0:20:07.928032, Training Loss: 2.4669, Training Accuracy: 63.51%
+2024-12-31 13:16:07,764 - INFO - Validation metrics - Top1 Acc: 68.76%, Top5 Acc: 89.07%, Val Loss: 2.1796
+2024-12-31 13:16:07,849 - INFO - Total training time so far: 1 day, 0:40:16.604408
+2024-12-31 13:16:08,839 - INFO - Starting epoch 80
+2024-12-31 13:35:57,816 - INFO - Epoch 80 completed in 0:19:48.975123, Training Loss: 2.4580, Training Accuracy: 63.58%
+2024-12-31 13:36:57,442 - INFO - Validation metrics - Top1 Acc: 68.25%, Top5 Acc: 88.23%, Val Loss: 2.2113
+2024-12-31 13:36:57,442 - INFO - Total training time so far: 1 day, 1:00:05.579531
+2024-12-31 13:36:58,478 - INFO - Starting epoch 81
+2024-12-31 13:56:19,062 - INFO - Epoch 81 completed in 0:19:20.581556, Training Loss: 2.4534, Training Accuracy: 63.75%
+2024-12-31 13:57:16,689 - INFO - Validation metrics - Top1 Acc: 68.41%, Top5 Acc: 88.77%, Val Loss: 2.1933
+2024-12-31 13:57:16,689 - INFO - Total training time so far: 1 day, 1:19:26.161087
+2024-12-31 13:57:17,693 - INFO - Starting epoch 82
+2024-12-31 14:17:53,725 - INFO - Epoch 82 completed in 0:20:35.976462, Training Loss: 2.4491, Training Accuracy: 63.85%
+2024-12-31 14:18:55,869 - INFO - Validation metrics - Top1 Acc: 69.09%, Top5 Acc: 89.04%, Val Loss: 2.1665
+2024-12-31 14:18:55,869 - INFO - Total training time so far: 1 day, 1:40:02.137549
+2024-12-31 14:18:57,679 - INFO - Starting epoch 83
+2024-12-31 14:39:11,462 - INFO - Epoch 83 completed in 0:20:13.781607, Training Loss: 2.4397, Training Accuracy: 64.09%
+2024-12-31 14:40:11,394 - INFO - Validation metrics - Top1 Acc: 68.86%, Top5 Acc: 89.14%, Val Loss: 2.1813
+2024-12-31 14:40:11,394 - INFO - Total training time so far: 1 day, 2:00:15.919156
+2024-12-31 14:40:12,483 - INFO - Starting epoch 84
+2024-12-31 14:59:46,951 - INFO - Epoch 84 completed in 0:19:34.466837, Training Loss: 2.4263, Training Accuracy: 64.45%
+2024-12-31 15:00:48,434 - INFO - Validation metrics - Top1 Acc: 69.93%, Top5 Acc: 89.66%, Val Loss: 2.1459
+2024-12-31 15:00:48,500 - INFO - Total training time so far: 1 day, 2:19:50.385993
+2024-12-31 15:00:50,260 - INFO - Starting epoch 85
+2024-12-31 15:21:20,208 - INFO - Epoch 85 completed in 0:20:29.946393, Training Loss: 2.4167, Training Accuracy: 64.53%
+2024-12-31 15:22:22,932 - INFO - Validation metrics - Top1 Acc: 69.58%, Top5 Acc: 89.21%, Val Loss: 2.1598
+2024-12-31 15:22:22,932 - INFO - Total training time so far: 1 day, 2:40:20.332386
+2024-12-31 15:22:23,948 - INFO - Starting epoch 86
+2024-12-31 15:42:25,088 - INFO - Epoch 86 completed in 0:20:01.137963, Training Loss: 2.4124, Training Accuracy: 64.79%
+2024-12-31 15:43:26,450 - INFO - Validation metrics - Top1 Acc: 69.62%, Top5 Acc: 89.54%, Val Loss: 2.1580
+2024-12-31 15:43:26,450 - INFO - Total training time so far: 1 day, 3:00:21.470349
+2024-12-31 15:43:27,508 - INFO - Starting epoch 87
+2024-12-31 16:03:46,957 - INFO - Epoch 87 completed in 0:20:19.409322, Training Loss: 2.4021, Training Accuracy: 64.95%
+2024-12-31 16:04:53,343 - INFO - Validation metrics - Top1 Acc: 69.82%, Top5 Acc: 89.50%, Val Loss: 2.1465
+2024-12-31 16:04:53,344 - INFO - Total training time so far: 1 day, 3:20:40.879671
+2024-12-31 16:04:54,453 - INFO - Starting epoch 88
+2024-12-31 16:27:24,416 - INFO - Epoch 88 completed in 0:22:29.961748, Training Loss: 2.3990, Training Accuracy: 64.98%
+2024-12-31 16:28:29,669 - INFO - Validation metrics - Top1 Acc: 69.60%, Top5 Acc: 89.45%, Val Loss: 2.1455
+2024-12-31 16:28:29,669 - INFO - Total training time so far: 1 day, 3:43:10.841419
+2024-12-31 16:28:30,706 - INFO - Starting epoch 89
+2024-12-31 16:49:35,833 - INFO - Epoch 89 completed in 0:21:05.124538, Training Loss: 2.3927, Training Accuracy: 65.17%
+2024-12-31 16:50:39,219 - INFO - Validation metrics - Top1 Acc: 70.02%, Top5 Acc: 89.55%, Val Loss: 2.1375
+2024-12-31 16:50:39,300 - INFO - Total training time so far: 1 day, 4:04:15.965957
+2024-12-31 16:50:41,156 - INFO - 
+Target accuracy of 70% achieved! Current accuracy: 70.02%
+2024-12-31 16:50:41,156 - INFO - Target accuracy reached: 70.02%
+2024-12-31 16:50:43,282 - INFO - 
+Training completed!
+2024-12-31 16:50:43,282 - INFO - Total training time: 1 day, 5:34:32.257737
+
   ```
 </details>
 
@@ -934,15 +1312,7 @@ The following metrics are tracked 📋:
 
 #### Test Accuracy Graphs
 
-<details>
-  <summary>Local Training</summary>
-    <img src="images/test_accuracy_local.PNG" alt="Uploading Dataset Screenshot" width="600">
-</details>
-
-<details>
-  <summary>AWS Training</summary>
-    <img src="images/test_accuracy_aws.PNG" alt="Uploading Dataset Screenshot" width="600">
-</details>
+<img src="images/test_accuracy_local.PNG" alt="Uploading Dataset Screenshot" width="600">
 
 
 ## 📈 Results
@@ -957,12 +1327,12 @@ The model achieves:
 - ⏱️ Training time: **16 hours**
 
 **AWS**  
-- ✅ Training accuracy: **75.11%** 
-- 🎯 Test accuracy: **75.78%**  
-- 📆 Epochs: **150**  
+- ✅ Training accuracy: **65.17%**
+- 🎯 Test accuracy: **70.02%**  
+- 📆 Epochs: **90**  
 - 🧺 Batch size: **450**  
 - 💻 Number of GPUs: **4**
-- ⏱️ Training time: **16 hours**
+- ⏱️ Training time: **1 day 6 hours**
 
 ## Inference 💡
 
